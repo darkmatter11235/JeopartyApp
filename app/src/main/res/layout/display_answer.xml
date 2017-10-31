@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/answer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:layout_marginBottom="30sp"
+        android:text="Answer To the Question Here \n Here is the Answer to the question" />
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="30"
+        android:progress="0"
+        android:foreground="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp" />
+     <Button
+         android:id="@+id/show_answer"
+         android:text="Show Answer"
+         android:padding="10sp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+    <TextView
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_text"
+        android:layout_weight="0.29" />
+    <RadioGroup
+        android:id="@+id/yes_no_group"
+        android:layout_gravity="center"
+        android:padding="2sp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rg_yes"
+            android:text="Correct"
+            android:padding="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rg_no"
+            android:text="Wrong"
+            android:padding="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rg_pass"
+            android:text="Pass"
+            android:padding="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/update_score"
+        android:padding="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update SCore" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/trebek_background"
+    tools:context="com.space.darkmatter.jeoparty.WelcomeActivity">
+    <Button
+        android:id="@+id/newgame_button"
+        android:text="New Game"
+        android:layout_marginTop="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/greetings_tv"
+        android:text="Greetings!"
+        android:paddingTop="10sp"
+        android:textSize="16sp"
+        android:layout_margin="30sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/welcome_signout_button"
+        android:layout_marginTop="50sp"
+        android:text="Sign Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

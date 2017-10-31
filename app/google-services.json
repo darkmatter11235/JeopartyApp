@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "963668552967",
+    "firebase_url": "https://jeoparty-77740.firebaseio.com",
+    "project_id": "jeoparty-77740",
+    "storage_bucket": "jeoparty-77740.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963668552967:android:45462dd1ecc5c966",
+        "android_client_info": {
+          "package_name": "com.space.darkmatter.jeoparty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963668552967-0hp0mi8g9t6p79jjhk1c683qtiffnu6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.space.darkmatter.jeoparty",
+            "certificate_hash": "c9ee92d2d1e0af4085c708d433ab1a3b9c1ee409"
+          }
+        },
+        {
+          "client_id": "963668552967-i13975ne25pdqt5vdm9a7atsdi1vj58o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALU0ykqcwAw5H7LlOEAS3FWkisUv6r1HI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963668552967-i13975ne25pdqt5vdm9a7atsdi1vj58o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
